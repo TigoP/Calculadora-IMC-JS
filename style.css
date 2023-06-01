@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+
+:root {
+    --primary-color: #054070;
+    --primary-color-darker: #021729;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Playfair', Georgia, sans-serif, 'Times New Roman', Times, serif;
+    list-style: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
+
+form input, form label {
+    display: block;
+    width: 40%;
+
+}
+
+form button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 35px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button:hover {
+    background: #021729;
+}
+
+form button:active {
+    background: red;
+}
+
+.paragrafo-resultado, .bad {
+    background: #057055;
+    padding: 20px 10px ;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bad {
+    background: #af3d4c;
+}
+
+.tabela {
+    width: 30em;
+    font-weight: 3em;
+    font-size: larger;
+}
+
+.cabecalho {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#peso, #altura {
+    text-align:center;
+}
